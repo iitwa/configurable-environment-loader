@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+     "target": "es2019",
+     "module": "commonjs",
+     "lib": ["es2019"],
+     "outDir": "./target/tsoutput",
+     "rootDir": "./src",
+     "strict": true,
+     "sourceMap": true,
+     "esModuleInterop": true,
+     "skipLibCheck": true,
+     "forceConsistentCasingInFileNames": true,
+     "moduleResolution": "node",
+     "allowJs": true,
+     "resolveJsonModule": true,
+     "types": ["jest","node"],
+     "declaration": true,
+     "declarationMap": true
+  },
+  "include": [
+      "src/**/*.ts",
+      "src/**/*.test.ts"
+   ],
+   "exclude": [
+       "node_modules",
+       "**/*.spec.ts",
+       "dist"
+   ]
+
+
+}

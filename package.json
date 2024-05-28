@@ -1,0 +1,44 @@
+{
+    "name": "environment-loader",
+    "version": "1.0.0",
+    "description": "A utility to load environment configurations easily.",
+    "main": "environment-loader/loader.js",
+    "types": "environment-loader/loader.d.ts",
+    "scripts": {
+        "test:unit": "jest --testMatch=\"**/*.unit-test.ts\"",
+        "test:integration": "jest --testMatch=\"**/*.integration-test.ts\"",
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iitwa/environment-loader"
+    },
+    "keywords": [
+        "environment",
+        "config",
+        "loader",
+        "typescript"
+    ],
+    "author": "IITWA",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/environment-loader/issues"
+    },
+    "homepage": "https://github.com/environment-loader#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.10",
+        "@types/node": "^20.10.4",
+        "exec": "^0.2.1",
+        "gulp": "^4.0.2",
+        "gulp-changed": "^5.0.1",
+        "gulp-npm-dist": "^1.0.4",
+        "gulp-typescript": "^6.0.0-alpha.1",
+        "gulp-zip": "^6.0.0",
+        "jest": "^29.7.0",
+        "merge-stream": "^2.0.0",
+        "ts-jest": "^29.1.1",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.2.2"
+    }
+}
