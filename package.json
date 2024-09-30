@@ -1,5 +1,5 @@
 {
-    "name": "environment-loader",
+    "name": "configurable-environment-loader",
     "version": "1.0.0",
     "description": "A utility to load environment configurations easily.",
     "main": "environment-loader/loader.js",
